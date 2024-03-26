@@ -1,0 +1,6 @@
+name = Collapsible
+description = Makes content section collapsible.
+backdrop = 1.x
+type = module
+stylesheets[all][] = css/collapsible.css
+scripts[] = js/collapsible.js

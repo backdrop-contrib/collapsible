@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the collapsible module.
+ */
+
+
+/**
+ * Implements hook_install().
+ */
+function collapsible_install() {
+  // Add new settings into the system.core configuration file.
+  #$config = config('system.core');
+  #$config->set('site_403', 'customerror/403');
+  #$config->save();
+}
+
+/**
+* Implements hook_uninstall().
+*/
+function collapsible_uninstall() {
+  // Clean-up the system configuration.
+  #$config = config('system.core');
+  #$config->clear('site_403');
+  #$config->save();
+  // Finally delete it's own configuration file.
+  #config('collapsible.settings')->delete();
+}
