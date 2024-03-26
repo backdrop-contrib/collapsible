@@ -1,6 +1,6 @@
 # Collapsible
 
-The collapsible module allows for any text division with the class collapsible_section to become collapsible.
+The collapsible module allows for any text division to become collapsible.
 
 For example, a common use case is the creation of a simple FAQ section, with a list of questions, with each answer displaying when a question is clicked.
 
